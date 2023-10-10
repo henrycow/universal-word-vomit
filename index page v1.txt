@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>CSS Template</title>
+<title>blog page index.html v1</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
@@ -11,12 +11,15 @@
 
 body {
   font-family: Arial, Helvetica, sans-serif;
+  border: 2px solid black;
+
 }
 
 /* Style the header */
 header {
-  background-color: #666;
-  padding: 30px;
+  background-color: pink;
+  border: 2px solid black;
+   padding: 30px;
   text-align: center;
   font-size: 35px;
   color: white;
@@ -32,9 +35,12 @@ section {
 nav {
   -webkit-flex: 1;
   -ms-flex: 1;
+  border: 2px solid black;
   flex: 1;
   background: #ccc;
-  padding: 20px;
+  padding: 1
+    10.
+    9px;
 }
 
 /* Style the list inside the menu */
@@ -48,13 +54,15 @@ article {
   -webkit-flex: 3;
   -ms-flex: 3;
   flex: 3;
-  background-color: #f1f1f1;
+  background-color: pink;
   padding: 10px;
+  border: 2px solid black;
 }
 
 /* Style the footer */
 footer {
-  background-color: #777;
+  border: 2px solid black;
+  background-color: pink;
   padding: 10px;
   text-align: center;
   color: white;
@@ -72,32 +80,48 @@ footer {
 <body>
 
 <h2>universal word vomit</h2>
-<p> welcome! here is where myself, tyler green, displays thoughts and feelings. call it a blog if you will. a diary is sufficient nomenclature as well. i'm a moody guy. lots of feelings and thoughts to beam out in cyber-space.</p>
+<p> welcome! here is where myself, tyler green, displays thoughts and feelings. call it a blog if you will. a diary is sufficient nomenclature as well. i'm a moody guy. lots of feelings and thoughts to beam out in cyber-space. </p>
 
-<header>
-  <h2>Cities</h2>
-</header>
+
 
 <section>
   <nav>
     <ul>
-      <li><a href="#">Blog</a></li>
-      <li><a href="#">Flaming Peace</a></li>
-      <li><a href="#">About</a></li>
+      <li><a href="blog.html">Blog</a></li>
+      <li><a href="flamingpeace.html">Flaming Peace</a></li>
+      <li><a href="about.html">About</a></li>
     </ul>
   </nav>
   
   <article>
-    <h1>Inspirational Words</h1>
-    <p>Men, initiate
-        Inamorato, your music art tomorrow's unknown known life
-        I love tomorrow</p>
+    <h1>inspirational words:</h1>
+    <textarea rows = "4" cols = "60">Men,initiate
+Inamorato, your music art tomorrow's unknown known life
+I love tomorrow
+- conrad roberts </textarea>
+    
+    <h1>waddya know?</h1>
+    <p> i know nothing, really. </p>
+    
+     <h1>waddya wanna know?</h1>
+    <p> how to metaphysically analyze post-modern western texts. what does metaphysical really mean anyways? </p>
     
   </article>
 </section>
 
 <footer>
-  <p>Footer</p>
+  <p>footer link/ additional navigation bar here</p>
+  
+  <section>
+  <nav>
+    <ul>
+      <li><a href="blog.html">Blog</a></li>
+      <li><a href="flamingpeace.html">Flaming Peace</a></li>
+      <li><a href="about.html">About</a></li>
+    </ul>
+  </nav>
+  </section>
+  
 </footer>
 
 </body>
